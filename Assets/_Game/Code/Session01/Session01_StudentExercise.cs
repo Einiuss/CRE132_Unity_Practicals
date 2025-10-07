@@ -24,13 +24,14 @@ public class Session01_StudentExercise : MonoBehaviour
     [Header("=== STUDENT INFORMATION ===")]
     // TODO 1.1: Create a public string variable for your first name
     // EXAMPLE: public string firstName = "John";
-    
+    string firstName = "Einius";
     // TODO 1.2: Create a public string variable for your student ID
     // EXAMPLE: public string studentID = "12345";
+    string studentID = "B0123013213";
     
     // TODO 1.3: Create a public int variable for your age
     // EXAMPLE: public int age = 20;
-    
+    int age = 18; 
     [Header("=== GAME CHARACTER STATS ===")]
     // TODO 2.1: Create public variables for a game character
     // GOAL: Practice the 4 core data types with meaningful game variables
@@ -38,6 +39,11 @@ public class Session01_StudentExercise : MonoBehaviour
     //         Movement speed (float = 5.5f), Is alive (bool = true)
     
     // YOUR CODE HERE:
+
+    string characterName = "Joust";
+    int healthPoints = 20;
+    float moveSpeed = 5.25;
+    bool isAlive = true;
     
     [Header("=== SIMPLE GAME SETTINGS ===")]
     // TODO 3.1: Create a public int for maxLevel with value 10
